@@ -1,0 +1,108 @@
+body {
+  background: var(--color-gray);
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-top: 13rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  color: var(--color-white);
+}
+
+div {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  width: 5rem;
+  height: 3rem;
+
+  border-radius: 6px;
+  border: none;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  color: var(--color-white);
+
+  background: linear-gradient(var(--color-purple2), var(--color-purple));
+}
+
+dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0;
+
+  width: 45%;
+
+  border: 1px solid var(--color-white);
+
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+dialog > div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+
+  height: 6vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+
+  align-items: center;
+
+  height: 27vh;
+  width: 100%;
+}
+
+span {
+  margin-top: 4rem;
+}
+
+section > button {
+  width: 100%;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+video {
+  width: 200px;
+  height: 200px;
+}
